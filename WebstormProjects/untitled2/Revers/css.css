@@ -1,0 +1,13 @@
+body{
+    margin: 5px;
+}
+#txt{
+    width: 20%;
+    display: inline;
+}
+#result{
+    display: inline;
+}
+#btn{
+    margin-top: 5px;
+}

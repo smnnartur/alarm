@@ -1,0 +1,87 @@
+<html>
+03
+<head>
+    04
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    05
+    <!--
+    06
+    <link rel="stylesheet" type="text/css" href="tmp.css" />
+    07
+    -->
+    08
+    <style type="text/css">
+        09
+        td {
+            10
+            position: relative;
+            11
+        }
+        12
+        .clone {
+            13
+            position: absolute;
+            14
+            top: 0;
+            15
+            left: 0;
+            16
+        }
+        17
+        .clone > img {
+            18
+            width: 100%;
+            19
+            height: 100%;
+            20
+        }
+        21
+    </style>
+    22
+    <script type="text/javascript">
+        23
+        $(document).ready(function () {
+            24
+            $('td a').click(function () {
+                25
+                var o=$(this).parent();
+                26
+                var url=o.find('img').attr('src');
+                27
+                var html='<a href="#" class="clone"><img src="'+url+'" /></a>'
+                28
+                o.append(html);
+                29
+                o=o.find('.clone');
+                30
+                o.animate({width:'200%',height:'200%'});
+                31
+                o.click(function () {
+                    32
+                    $(this).remove();
+                    33
+                });
+                34
+            });
+            35
+        });
+        36
+    </script>
+    37
+</head>
+38
+<body>
+39
+<table>
+    40
+    <td>
+        41
+        <a href='#'><img src='http://javascript.ru/forum/images/ca_serenity/misc/logo.gif' /></a>
+        42
+    </td>
+    43
+</table>
+44
+</body>
+45
+</html>

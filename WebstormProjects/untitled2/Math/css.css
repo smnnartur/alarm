@@ -1,0 +1,9 @@
+body{
+    padding: 5px;
+}
+#first,#second,#third{
+    width: 20%;
+}
+#sum{
+    display: inline;
+}

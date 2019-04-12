@@ -1,0 +1,27 @@
+﻿
+$str = 'Давайте устроим встречу 20.05.2022 и потом ещё одну 12.06.2022';
+// ЗДЕСЬ НУЖЕН КОД
+
+$days = [
+    'Вс' ,
+    'Пн' ,
+    'Вт' ,
+    'Ср' ,
+    'Чт' ,
+    'Пт' ,
+    'Сб' ,
+];
+
+$datePattern = '/(\d{2}.\d{2}.\d{4})/';
+
+if ( preg_match_all ( $datePattern , $str , $matches ) ) {
+    foreach ($matches[ 0 ] as $key => $value) {
+        $date[] = $matches[ 0 ][ $key ];
+        $dateReplacement[] = $days[ date ( "w" , strtotime ( $date[ $key ] ) ) ];
+
+        $str = str_replace ( $matches[ 0 ][ $key ] , $matches[ 0 ][ $key ] . ' (' . $dateReplacement[ $key ] . ')' , $str );
+    }
+}
+
+
+echo $str; // Давайте устроим встречу 20.05.2022 (пт) и потом ещё одну 12.06.2022 (вс)

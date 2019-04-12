@@ -1,0 +1,9 @@
+#res{
+    display: inline;
+}
+body{
+    padding: 5px;
+}
+#firstWord,#secondWord{
+    width: 20%;
+}

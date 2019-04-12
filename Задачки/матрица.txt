@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8"/>
+    </head>
+    <body>
+    <?php
+    $mat1=array(array(1,2,3),array(4,5,6),array(7,8,9));
+    $mat2=array(array(9,8,7),array(6,5,4),array(3,2,1));
+    $o=sizeof($mat1);
+    $n=sizeof($mat2[0]);
+    $m=sizeof($mat2);
+
+    for ($i=0;$i<$o;$i++){
+        for ($j=0;$j<$n;$j++){
+         for($k=0;$k<$m;$k++){
+             $res[$i][$j]+=$mat1[$i][$k]*$mat2[$k][$j];
+         }
+        }
+    }
+    echo '<pre>';
+    print_r($res);
+    echo '</pre>';
+
+    ?>
+    </body>
+</html>

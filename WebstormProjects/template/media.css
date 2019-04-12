@@ -1,0 +1,33 @@
+/*@media screen and (max-width: 640px){*/
+    /*nav li{*/
+        /*display: block;*/
+        /*text-align: center;*/
+    /*}*/
+/*}*/
+@media screen and (max-width:640px) {
+    .menu-trigger {
+        display:block;
+    }
+    nav ul li {
+        display:block;
+        border-top:1px #79896D solid;
+    }
+    nav ul {
+        display:none;
+    }
+}
+
+
+@media only screen and (max-width: 960px),
+only screen and (max-device-width: 960px){
+    .productsImg ul li{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 640px),
+only screen and (max-device-width: 640px){
+    .productsImg ul li{
+        width: 96%;
+    }
+}

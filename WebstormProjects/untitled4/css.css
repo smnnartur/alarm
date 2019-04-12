@@ -1,0 +1,41 @@
+body{
+
+    background: darkred;
+}
+#first{
+    background: darkviolet;
+    text-align: center;
+    height: 100px;
+    width: 15%;
+}
+.block {
+    color: white;
+}
+#second{
+    background: dodgerblue ;
+    text-align: center;
+    height: 100px;
+    width: 15%;
+
+}
+#third{
+    background: lightseagreen;
+    text-align: center;
+    height: 100px;
+    width: 15%;
+
+}
+#four{
+    background: chocolate;
+    text-align: center;
+    height: 100px;
+    width: 15%;
+}
+.block{
+    display: inline-block;
+    margin-left: 10px;
+
+}
+.blocks{
+    text-align: center;
+}

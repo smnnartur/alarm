@@ -1,0 +1,21 @@
+<?php
+$cons=array("fuck","shit","stupid");
+$rigth=array("f**k","s**t","s*****d");
+
+for ($i=0;$i<sizeof($cons);$i++){
+    if ($_POST['word']==$cons[$i]){
+        echo $rigth[$i];
+    }
+}
+?>
+<html>
+<head>
+
+</head>
+<body>
+<form method="post">
+    <input type="text" name="word">
+    <input type="submit">
+</form>
+</body>
+</html>

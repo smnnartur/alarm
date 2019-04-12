@@ -1,0 +1,11 @@
+﻿$word='artur edo';
+$explode=explode (' ',$word);
+$revers=array_reverse ($explode);
+foreach ($revers as &$item){
+    $split=str_split ($item);
+    $split_reverse=array_reverse ($split);
+    $split_implode=implode('',$split_reverse);
+    $item=$split_implode;
+}
+$implode=implode ($revers,' ');
+echo $implode;

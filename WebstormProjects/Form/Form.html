@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Form </title>
+    <link rel="stylesheet" type="text/css" href="style/css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script/js.js"></script>
+</head>
+<body>
+<div id="main">
+    <h1>Contact Us</h1>
+    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using </p>
+
+    <div id="form_div">
+        <form action="formInfo.php" method="post">
+
+            <input name="user_name" id="user_name" type="text" placeholder="Full name" />
+
+            <input name="user_email" id="user_email" type="text" placeholder="Email" />
+
+            <input name="user_phone" id="user_phone" type="text" placeholder="Phone number" />
+
+            <div id="radio">
+                <p>Do you certainly have a web site</p>
+                <label for="user_yes">
+                    <input type="radio" id="user_yes" name="user_check" value="user_yes" />Yes
+                </label>
+                <label for="user_no">
+                    <input type="radio" id="user_no" name="user_check" value="user_no" />No
+                </label>
+            </div>
+
+            <input name="user_url" id="user_url" type="text" placeholder="If so, what is you web site address?" />
+
+            <textarea name="user_mes" id="user_mes" rows="8" cols="10" placeholder="How can we help you?"></textarea>
+
+            <div id="buttons">
+                <input type="submit" value="send" name="user_submit" id="user_submit" />
+                <input type="reset" value="clear" name="user_reset" id="user_reset" />
+            </div>
+        </form>
+    </div>
+
+    <div id="image_div"></div>
+
+</div>
+</body>
+</html>
