@@ -1,0 +1,26 @@
+<header>
+    <artists id="1">
+        <ARTIST>
+            artur
+        </ARTIST>
+        <AGE>
+            22
+        </AGE>
+    </artists>
+    <artirsts id="2">
+        <ARTIST>
+            edo
+        </ARTIST>
+        <AGE>
+            26
+        </AGE>
+    </artirsts>
+    <artirsts id="3">
+        <ARTIST>
+            adnia
+        </ARTIST>
+        <AGE>
+            26
+        </AGE>
+    </artirsts>
+</header>

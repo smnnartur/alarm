@@ -1,0 +1,20 @@
+{
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/bbe511de-5bb8-11e9-9109-f8fc00165e85",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json",
+      "uuidHref": "https://online.moysklad.ru/app/#mycompany/edit?id=bbe511de-5bb8-11e9-9109-f8fc00165e85"
+    }
+  },
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/bbe511de-5bb8-11e9-9109-f8fc00165e85",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json",
+      "uuidHref": "https://online.moysklad.ru/app/#mycompany/edit?id=bbe511de-5bb8-11e9-9109-f8fc00165e85"
+    }
+  }
+}

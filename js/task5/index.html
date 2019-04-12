@@ -1,0 +1,36 @@
+<?php
+require_once 'Converter.php';
+?>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Task-1r</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+</head>
+<body>
+<h1>Интерактивное бургер-меню</h1>
+<p>Бургерм Меню</p>
+<p><input type="checkbox" checked disabled data-cost="10" data-kkal="75" class="menu">
+Булочка
+</p>
+<hr>
+<h2>Наполнение</h2>
+<p><input type="checkbox" data-cost="12" data-kkal="100" class="menu" onchange="burger()">Сыр</p>
+<p><input type="checkbox" data-cost="8" data-kkal="50" class="menu" onchange="burger()">Салат</p>
+<p><input type="checkbox" data-cost="2" data-kkal="20" class="menu" onchange="burger()">Огурец</p>
+<p><input type="checkbox" data-cost="4" data-kkal="67" class="menu" onchange="burger()">Помидор</p>
+<hr>
+<h2>Соусы</h2>
+<p><input type="checkbox" data-cost="5" data-kkal="5" class="menu" onchange="burger()">Горчица</p>
+<p><input type="checkbox" data-cost="5" data-kkal="12" class="menu" onchange="burger()">Майонез</p>
+<p><input type="checkbox" data-cost="10" data-kkal="35" class="menu" onchange="burger()">Сычуанский</p>
+<hr>
+<h3>Итого:</h3>
+<p>Калорийность: <span id="kkal"></span>Цена: <span id="cost"></span></p>
+<!--<button id="result" onclick="burger()">Счет</button>-->
+
+<script src="js.js"></script>
+</body>
+</html>

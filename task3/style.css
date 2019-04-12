@@ -1,0 +1,9 @@
+form {
+    position: absolute;
+    left: 41%;
+}
+input{
+    display: block;
+    width: 250px;
+    text-align: center;
+}
