@@ -13,24 +13,26 @@ function pre ( $var )
 }
 
 
-//---------------------------------------------------------------------------------------------------------------------------------------------
+////---------------------------------------------------------------------------------------------------------------------------------------------
 ////Вывод значения поля 'Комментарий' в заказе покупателя
-//$ch = curl_init();
-//curl_setopt($ch, CURLOPT_URL, $urlapi);
-//curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-//curl_setopt($ch, CURLOPT_USERPWD, "$username:$password");
-//curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
-//$output = curl_exec($ch);
-//$info = curl_getinfo($ch);
-//curl_close($ch);
-//$decode=json_decode ($output,true);
-//foreach ($decode['rows'] as $value){
-//    echo $value['description'] ?? null;
+////---------------------------------------------------------------------------------------------------------------------------------------------
+//$ch = curl_init ();
+//curl_setopt ( $ch , CURLOPT_URL , $urlapi );
+//curl_setopt ( $ch , CURLOPT_RETURNTRANSFER , true );
+//curl_setopt ( $ch , CURLOPT_USERPWD , "$username:$password" );
+//curl_setopt ( $ch , CURLOPT_HTTPAUTH , CURLAUTH_BASIC );
+//$output = curl_exec ( $ch );
+//$info = curl_getinfo ( $ch );
+//curl_close ( $ch );
+//$decode = json_decode ( $output , true );
+//foreach ( $decode[ 'rows' ] as $value ) {
+//    echo $value[ 'description' ] ?? null;
 //}
 
 
-//---------------------------------------------------------------------------------------------------------------------------------------------
-////Вывод списка позиций в заазе покупателя
+////---------------------------------------------------------------------------------------------------------------------------------------------
+////Вывод списка позиций в заказе покупателя
+////---------------------------------------------------------------------------------------------------------------------------------------------
 //$arr=[];
 //$ch = curl_init();
 //curl_setopt($ch, CURLOPT_URL, $urlapi);
@@ -50,8 +52,10 @@ function pre ( $var )
 //    echo $item."<br>" ?? null;
 //}
 
-//---------------------------------------------------------------------------------------------------------------------------------------------
+
+////---------------------------------------------------------------------------------------------------------------------------------------------
 ////Изменяем значение поле 'Комментарий' в заказе покупателя (PUT)
+////---------------------------------------------------------------------------------------------------------------------------------------------
 //$data = array ( "description" => 'Nice' );
 //$data_json = json_encode ( $data );
 //$ch = curl_init ();
@@ -68,8 +72,9 @@ function pre ( $var )
 //curl_close($ch);
 
 
-//---------------------------------------------------------------------------------------------------------------------------------------------
+////---------------------------------------------------------------------------------------------------------------------------------------------
 ////Удаление (DELETE)
+////---------------------------------------------------------------------------------------------------------------------------------------------
 //$ch = curl_init ();
 //
 //curl_setopt ( $ch , CURLOPT_URL , $urlapi );
@@ -84,18 +89,19 @@ function pre ( $var )
 //curl_close ( $ch );
 
 
-//---------------------------------------------------------------------------------------------------------------------------------------------
+////---------------------------------------------------------------------------------------------------------------------------------------------
 ////Добавление (POST) ПРИМЕЧАНИЕ:в json файл agent и organization взяты с "мойсклад" , т.к. у каждого аккаунта свои данные!
-//$data_json=file_get_contents ('target.json');
-//$ch = curl_init ();
-//
-//curl_setopt ( $ch , CURLOPT_URL , $urlapi );
-//curl_setopt ( $ch , CURLOPT_RETURNTRANSFER , true );
-//curl_setopt ( $ch , CURLOPT_USERPWD , "$username:$password" );
-//curl_setopt ( $ch , CURLOPT_HTTPAUTH , CURLAUTH_BASIC );
-//curl_setopt ( $ch , CURLOPT_HTTPHEADER , array ( 'Content-Type: application/json' ) );
-//curl_setopt($ch, CURLOPT_POST, 1);
-//curl_setopt ( $ch , CURLOPT_POSTFIELDS , $data_json );
-//
-//$response = curl_exec ( $ch );
-//curl_close ( $ch );
+////---------------------------------------------------------------------------------------------------------------------------------------------
+$data_json=file_get_contents ('target.json');
+$ch = curl_init ();
+
+curl_setopt ( $ch , CURLOPT_URL , $urlapi );
+curl_setopt ( $ch , CURLOPT_RETURNTRANSFER , true );
+curl_setopt ( $ch , CURLOPT_USERPWD , "$username:$password" );
+curl_setopt ( $ch , CURLOPT_HTTPAUTH , CURLAUTH_BASIC );
+curl_setopt ( $ch , CURLOPT_HTTPHEADER , array ( 'Content-Type: application/json' ) );
+curl_setopt ( $ch , CURLOPT_POST, 1);
+curl_setopt ( $ch , CURLOPT_POSTFIELDS , $data_json );
+
+$response = curl_exec ( $ch );
+curl_close ( $ch );

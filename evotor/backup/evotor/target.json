@@ -1,0 +1,21 @@
+[
+  {
+    "uuid":  "919d1ca5-3b3b-4d63-8fe4-634b884c2177",
+    "code": "135#142",
+    "barCodes": [
+      "8800222900641"
+    ],
+    "name": "Palmeral White (28)",
+    "price": 4200,
+    "quantity": 1,
+    "costPrice": 1656,
+    "measureName": "\u0448\u0442",
+    "tax": "NO_VAT",
+    "allowToSell": true,
+    "description": "\u0416\u0435\u043d\u0441\u043a\u0438\u0435 \u043a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438 \u0441 \u043f\u0435\u0440\u0444\u043e\u0440\u0430\u0446\u0438\u0435\u0439 \u0438 \u0432\u0441\u0442\u0430\u0432\u043a\u043e\u0439 \u0438\u0437 \u043d\u0430\u0442\u0443\u0440\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043d\u0443\u0431\u0443\u043a\u0430 \u0441 \u0430\u0440\u043e\u043c\u0430\u0442\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u0439 \u043f\u043e\u0434\u043e\u0448\u0432\u043e\u0439. \u041c\u0410\u041b\u041e\u041c\u0415\u0420\u042f\u0422 \u041d\u0410 2 \u0420\u0410\u0417\u041c\u0415\u0420\u0410!",
+    "articleNumber": null,
+    "parentUuid": null,
+    "group": false,
+    "type": "NORMAL"
+  }
+]

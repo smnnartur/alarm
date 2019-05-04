@@ -1,0 +1,1824 @@
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => [{"uuid":"be3d0da9-d97b-49b0-b2eb-63ee3a678279","type":"SELL","deviceUuid":"20180323-220C-404F-809F-A308B066DC7F","transactions":[{"type":"DOCUMENT_OPEN","uuid":null,"id":"1","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:41:58.000+0000","timezone":10800000,"baseDocumentNumber":null,"baseDocumentUUID":null,"clientName":null,"clientPhone":null,"couponNumber":null},{"type":"REGISTER_POSITION","uuid":null,"id":"2","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:41:58.000+0000","timezone":10800000,"alcoholByVolume":0,"alcoholProductKindCode":0,"balanceQuantity":0,"barcode":null,"commodityCode":null,"commodityUuid":null,"commodityName":"Позиция по свободной цене","commodityType":"NORMAL","costPrice":0,"fprintSection":"0","mark":null,"measureName":"дроб","tareVolume":0,"price":1,"quantity":1,"resultPrice":1,"resultSum":1,"sum":1,"positionId":null,"extraKeys":[]},{"type":"POSITION_TAX","uuid":null,"id":"3","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:41:58.000+0000","timezone":10800000,"barcode":null,"commodityCode":null,"commodityUuid":null,"resultPrice":1,"resultSum":1,"resultTaxSum":0,"tax":"NO_VAT","taxPercent":0,"taxRateCode":null,"taxSum":0},{"type":"PAYMENT","uuid":"0af010dc-c2aa-4c0b-9247-10995dd0728e","id":"4","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:41:58.000+0000","timezone":10800000,"paymentType":"CASH","rrn":null,"sum":1},{"type":"DOCUMENT_CLOSE_FPRINT","uuid":null,"id":"5","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:41:58.000+0000","timezone":10800000,"documentNumber":"12","receiptNumber":"8","sessionNumber":"131","total":1},{"type":"DOCUMENT_CLOSE","uuid":null,"id":"6","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:41:58.000+0000","timezone":10800000,"clientName":null,"clientPhone":null,"couponNumber":null,"quantity":1,"sum":1,"baseDocumentNumber":null,"baseDocumentUUID":null}],"closeDate":"2019-04-24T13:41:58.000+0000","openDate":"2019-04-24T13:41:58.000+0000","openUserCode":null,"openUserUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","closeUserCode":null,"closeUserUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","sessionUUID":"6b8ecf6a-cc63-47fb-9799-d7a5f18eac2b","sessionNumber":"133","number":1042,"closeResultSum":"1.00","closeSum":"1.00","extras":{},"version":"V1"}]
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"b18e42e8-2a26-4862-ae1a-556f7b28211e","timestamp":1556113320535,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"be3d0da9-d97b-49b0-b2eb-63ee3a678279","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-24T13:41:58.000Z","type":"SELL","shiftId":"133","employeeId":"20180323-CA81-401F-807E-C3B2AB3FB7B2","paymentSource":"PAY_CASH","infoCheck":false,"egais":false,"items":[{"id":"390067bf-e8d3-4fcc-8c30-fbfd77a0a70d","name":"Позиция по свободной цене","itemType":"NORMAL","measureName":"дроб","quantity":1,"price":1,"costPrice":0,"sumPrice":1,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":1.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => [{"uuid":"6804b947-e200-4e69-b4a4-aee152e1661f","type":"SELL","deviceUuid":"20180323-220C-404F-809F-A308B066DC7F","transactions":[{"type":"DOCUMENT_OPEN","uuid":null,"id":"1","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:44:13.000+0000","timezone":10800000,"baseDocumentNumber":null,"baseDocumentUUID":null,"clientName":null,"clientPhone":null,"couponNumber":null},{"type":"REGISTER_POSITION","uuid":null,"id":"2","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:44:13.000+0000","timezone":10800000,"alcoholByVolume":0,"alcoholProductKindCode":0,"balanceQuantity":0,"barcode":null,"commodityCode":null,"commodityUuid":null,"commodityName":"Позиция по свободной цене","commodityType":"NORMAL","costPrice":0,"fprintSection":"0","mark":null,"measureName":"дроб","tareVolume":0,"price":1,"quantity":1,"resultPrice":1,"resultSum":1,"sum":1,"positionId":null,"extraKeys":[]},{"type":"POSITION_TAX","uuid":null,"id":"3","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:44:13.000+0000","timezone":10800000,"barcode":null,"commodityCode":null,"commodityUuid":null,"resultPrice":1,"resultSum":1,"resultTaxSum":0,"tax":"NO_VAT","taxPercent":0,"taxRateCode":null,"taxSum":0},{"type":"PAYMENT","uuid":"03b6139e-3b0e-45b1-a52c-85b652b8a5f6","id":"4","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:44:13.000+0000","timezone":10800000,"paymentType":"CASH","rrn":null,"sum":1},{"type":"DOCUMENT_CLOSE_FPRINT","uuid":null,"id":"5","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:44:13.000+0000","timezone":10800000,"documentNumber":"13","receiptNumber":"9","sessionNumber":"131","total":1},{"type":"DOCUMENT_CLOSE","uuid":null,"id":"6","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:44:13.000+0000","timezone":10800000,"clientName":null,"clientPhone":null,"couponNumber":null,"quantity":1,"sum":1,"baseDocumentNumber":null,"baseDocumentUUID":null}],"closeDate":"2019-04-24T13:44:13.000+0000","openDate":"2019-04-24T13:44:13.000+0000","openUserCode":null,"openUserUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","closeUserCode":null,"closeUserUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","sessionUUID":"6b8ecf6a-cc63-47fb-9799-d7a5f18eac2b","sessionNumber":"133","number":1043,"closeResultSum":"1.00","closeSum":"1.00","extras":{},"version":"V1"}]
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"5263537b-d410-4ef5-b080-30efb08a1edf","timestamp":1556113455313,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"6804b947-e200-4e69-b4a4-aee152e1661f","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-24T13:44:13.000Z","type":"SELL","shiftId":"133","employeeId":"20180323-CA81-401F-807E-C3B2AB3FB7B2","paymentSource":"PAY_CASH","infoCheck":false,"egais":false,"items":[{"id":"390067bf-e8d3-4fcc-8c30-fbfd77a0a70d","name":"Позиция по свободной цене","itemType":"NORMAL","measureName":"дроб","quantity":1,"price":1,"costPrice":0,"sumPrice":1,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":1.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => [{"uuid":"a397a0b4-1242-43be-a25b-6d5755d1efd6","type":"SELL","deviceUuid":"20180323-220C-404F-809F-A308B066DC7F","transactions":[{"type":"DOCUMENT_OPEN","uuid":null,"id":"1","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:50:34.000+0000","timezone":10800000,"baseDocumentNumber":null,"baseDocumentUUID":null,"clientName":null,"clientPhone":null,"couponNumber":null},{"type":"REGISTER_POSITION","uuid":null,"id":"2","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:50:34.000+0000","timezone":10800000,"alcoholByVolume":0,"alcoholProductKindCode":0,"balanceQuantity":0,"barcode":null,"commodityCode":null,"commodityUuid":null,"commodityName":"Позиция по свободной цене","commodityType":"NORMAL","costPrice":0,"fprintSection":"0","mark":null,"measureName":"дроб","tareVolume":0,"price":1,"quantity":1,"resultPrice":1,"resultSum":1,"sum":1,"positionId":null,"extraKeys":[]},{"type":"POSITION_TAX","uuid":null,"id":"3","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:50:34.000+0000","timezone":10800000,"barcode":null,"commodityCode":null,"commodityUuid":null,"resultPrice":1,"resultSum":1,"resultTaxSum":0,"tax":"NO_VAT","taxPercent":0,"taxRateCode":null,"taxSum":0},{"type":"PAYMENT","uuid":"e4a7f7a4-5414-4717-9ba8-7ebbe6cdce6e","id":"4","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:50:34.000+0000","timezone":10800000,"paymentType":"CASH","rrn":null,"sum":1},{"type":"DOCUMENT_CLOSE_FPRINT","uuid":null,"id":"5","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:50:34.000+0000","timezone":10800000,"documentNumber":"14","receiptNumber":"10","sessionNumber":"131","total":1},{"type":"DOCUMENT_CLOSE","uuid":null,"id":"6","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:50:34.000+0000","timezone":10800000,"clientName":null,"clientPhone":null,"couponNumber":null,"quantity":1,"sum":1,"baseDocumentNumber":null,"baseDocumentUUID":null}],"closeDate":"2019-04-24T13:50:34.000+0000","openDate":"2019-04-24T13:50:34.000+0000","openUserCode":null,"openUserUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","closeUserCode":null,"closeUserUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","sessionUUID":"6b8ecf6a-cc63-47fb-9799-d7a5f18eac2b","sessionNumber":"133","number":1044,"closeResultSum":"1.00","closeSum":"1.00","extras":{},"version":"V1"}]
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"44e8e01d-0db5-4582-aeef-8362c9f363a0","timestamp":1556113837822,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"a397a0b4-1242-43be-a25b-6d5755d1efd6","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-24T13:50:34.000Z","type":"SELL","shiftId":"133","employeeId":"20180323-CA81-401F-807E-C3B2AB3FB7B2","paymentSource":"PAY_CASH","infoCheck":false,"egais":false,"items":[{"id":"390067bf-e8d3-4fcc-8c30-fbfd77a0a70d","name":"Позиция по свободной цене","itemType":"NORMAL","measureName":"дроб","quantity":1,"price":1,"costPrice":0,"sumPrice":1,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":1.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"e8792926-2afc-406c-b63e-49d6e10b0852","timestamp":1556113909540,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"3d211a0f-5ed0-4f9f-ab4d-a826ac822aa2","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-24T13:51:47.000Z","type":"SELL","shiftId":"133","employeeId":"20180323-CA81-401F-807E-C3B2AB3FB7B2","paymentSource":"PAY_CASH","infoCheck":false,"egais":false,"items":[{"id":"390067bf-e8d3-4fcc-8c30-fbfd77a0a70d","name":"Позиция по свободной цене","itemType":"NORMAL","measureName":"дроб","quantity":1,"price":1,"costPrice":0,"sumPrice":1,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":1.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => [{"uuid":"3d211a0f-5ed0-4f9f-ab4d-a826ac822aa2","type":"SELL","deviceUuid":"20180323-220C-404F-809F-A308B066DC7F","transactions":[{"type":"DOCUMENT_OPEN","uuid":null,"id":"1","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:51:47.000+0000","timezone":10800000,"baseDocumentNumber":null,"baseDocumentUUID":null,"clientName":null,"clientPhone":null,"couponNumber":null},{"type":"REGISTER_POSITION","uuid":null,"id":"2","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:51:47.000+0000","timezone":10800000,"alcoholByVolume":0,"alcoholProductKindCode":0,"balanceQuantity":0,"barcode":null,"commodityCode":null,"commodityUuid":null,"commodityName":"Позиция по свободной цене","commodityType":"NORMAL","costPrice":0,"fprintSection":"0","mark":null,"measureName":"дроб","tareVolume":0,"price":1,"quantity":1,"resultPrice":1,"resultSum":1,"sum":1,"positionId":null,"extraKeys":[]},{"type":"POSITION_TAX","uuid":null,"id":"3","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:51:47.000+0000","timezone":10800000,"barcode":null,"commodityCode":null,"commodityUuid":null,"resultPrice":1,"resultSum":1,"resultTaxSum":0,"tax":"NO_VAT","taxPercent":0,"taxRateCode":null,"taxSum":0},{"type":"PAYMENT","uuid":"14eadc1c-ea42-41f7-aac9-35ee6fd4e4d8","id":"4","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:51:47.000+0000","timezone":10800000,"paymentType":"CASH","rrn":null,"sum":1},{"type":"DOCUMENT_CLOSE_FPRINT","uuid":null,"id":"5","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:51:47.000+0000","timezone":10800000,"documentNumber":"15","receiptNumber":"11","sessionNumber":"131","total":1},{"type":"DOCUMENT_CLOSE","uuid":null,"id":"6","userCode":null,"userUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","creationDate":"2019-04-24T13:51:47.000+0000","timezone":10800000,"clientName":null,"clientPhone":null,"couponNumber":null,"quantity":1,"sum":1,"baseDocumentNumber":null,"baseDocumentUUID":null}],"closeDate":"2019-04-24T13:51:47.000+0000","openDate":"2019-04-24T13:51:47.000+0000","openUserCode":null,"openUserUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","closeUserCode":null,"closeUserUuid":"20180323-CA81-401F-807E-C3B2AB3FB7B2","sessionUUID":"6b8ecf6a-cc63-47fb-9799-d7a5f18eac2b","sessionNumber":"133","number":1045,"closeResultSum":"1.00","closeSum":"1.00","extras":{},"version":"V1"}]
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"227e1d27-9e71-4385-beea-421fcb9ff7ff","timestamp":1556114409054,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"57463274-f29b-4dd9-a070-32524ba8b2b0","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-24T13:58:37.000Z","type":"PAYBACK","shiftId":"133","employeeId":"20180323-CA81-401F-807E-C3B2AB3FB7B2","paymentSource":"OTHER","infoCheck":false,"egais":false,"items":[{"id":"390067bf-e8d3-4fcc-8c30-fbfd77a0a70d","name":"Позиция по свободной цене","itemType":"NORMAL","measureName":"дроб","quantity":-1,"price":1,"costPrice":0,"sumPrice":-1,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":1.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => [{"uuid":"8f06b785-4593-4bc6-836b-7370af41a65e","type":"SELL","deviceUuid":"20180323-220C-404F-809F-A308B066DC7F","transactions":[{"type":"DOCUMENT_OPEN","uuid":null,"id":"1","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-24T15:46:15.000+0000","timezone":10800000,"baseDocumentNumber":null,"baseDocumentUUID":null,"clientName":null,"clientPhone":null,"couponNumber":null},{"type":"REGISTER_POSITION","uuid":null,"id":"2","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-24T15:46:15.000+0000","timezone":10800000,"alcoholByVolume":0,"alcoholProductKindCode":0,"balanceQuantity":14,"barcode":null,"commodityCode":"104#106","commodityUuid":"20a43413-469b-4577-b139-a73db0605480","commodityName":"Abaco Beige (37)","commodityType":"NORMAL","costPrice":1656,"fprintSection":"0","mark":null,"measureName":"шт","tareVolume":0,"price":4200,"quantity":1,"resultPrice":4200,"resultSum":4200,"sum":4200,"positionId":null,"extraKeys":[]},{"type":"POSITION_TAX","uuid":null,"id":"3","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-24T15:46:15.000+0000","timezone":10800000,"barcode":null,"commodityCode":"104#106","commodityUuid":"20a43413-469b-4577-b139-a73db0605480","resultPrice":4200,"resultSum":4200,"resultTaxSum":0,"tax":"NO_VAT","taxPercent":0,"taxRateCode":null,"taxSum":0},{"type":"PAYMENT","uuid":"833ac95b-352d-4328-a86b-a06784e7629a","id":"4","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-24T15:46:15.000+0000","timezone":10800000,"paymentType":"CASH","rrn":null,"sum":4200},{"type":"DOCUMENT_CLOSE_FPRINT","uuid":null,"id":"5","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-24T15:46:15.000+0000","timezone":10800000,"documentNumber":"19","receiptNumber":"13","sessionNumber":"132","total":4200},{"type":"DOCUMENT_CLOSE","uuid":null,"id":"6","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-24T15:46:15.000+0000","timezone":10800000,"clientName":null,"clientPhone":null,"couponNumber":null,"quantity":1,"sum":4200,"baseDocumentNumber":null,"baseDocumentUUID":null}],"closeDate":"2019-04-24T15:46:15.000+0000","openDate":"2019-04-24T15:46:15.000+0000","openUserCode":null,"openUserUuid":"20180323-8803-4036-80A7-9892717F7410","closeUserCode":null,"closeUserUuid":"20180323-8803-4036-80A7-9892717F7410","sessionUUID":"3d78637b-aaf5-4290-be81-b2642fca762c","sessionNumber":"134","number":1051,"closeResultSum":"4200.00","closeSum":"4200.00","extras":{},"version":"V1"}]
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"69bb6f9c-4528-4cd7-a3da-5ebe38ea891a","timestamp":1556120776937,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"8f06b785-4593-4bc6-836b-7370af41a65e","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-24T15:46:15.000Z","type":"SELL","shiftId":"134","employeeId":"20180323-8803-4036-80A7-9892717F7410","paymentSource":"PAY_CASH","infoCheck":false,"egais":false,"items":[{"id":"20a43413-469b-4577-b139-a73db0605480","name":"Abaco Beige (37)","itemType":"NORMAL","measureName":"шт","quantity":1,"price":4200,"costPrice":1656,"sumPrice":4200,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":4200.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"b4032f93-7568-4a1a-9863-39b7105e3f6b","timestamp":1556175787413,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"ec81a14c-0fab-40f4-bfa9-4ed7a4cbe606","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-25T07:03:05.000Z","type":"PAYBACK","shiftId":"134","employeeId":"20180323-8803-4036-80A7-9892717F7410","paymentSource":"OTHER","infoCheck":false,"egais":false,"items":[{"id":"20a43413-469b-4577-b139-a73db0605480","name":"Abaco Beige (37)","itemType":"NORMAL","measureName":"шт","quantity":-1,"price":4200,"costPrice":1656,"sumPrice":-4200,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":4200.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => [{"uuid":"fefe9ed8-8f85-4db1-a3ce-6d1a99c85cd6","type":"SELL","deviceUuid":"20180323-220C-404F-809F-A308B066DC7F","transactions":[{"type":"DOCUMENT_OPEN","uuid":null,"id":"1","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T08:28:07.000+0000","timezone":10800000,"baseDocumentNumber":null,"baseDocumentUUID":null,"clientName":null,"clientPhone":null,"couponNumber":null},{"type":"REGISTER_POSITION","uuid":null,"id":"2","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T08:28:07.000+0000","timezone":10800000,"alcoholByVolume":0,"alcoholProductKindCode":0,"balanceQuantity":14,"barcode":null,"commodityCode":"104#106","commodityUuid":"20a43413-469b-4577-b139-a73db0605480","commodityName":"Abaco Beige (37)","commodityType":"NORMAL","costPrice":1656,"fprintSection":"0","mark":null,"measureName":"шт","tareVolume":0,"price":4200,"quantity":1,"resultPrice":4200,"resultSum":4200,"sum":4200,"positionId":null,"extraKeys":[]},{"type":"POSITION_TAX","uuid":null,"id":"3","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T08:28:07.000+0000","timezone":10800000,"barcode":null,"commodityCode":"104#106","commodityUuid":"20a43413-469b-4577-b139-a73db0605480","resultPrice":4200,"resultSum":4200,"resultTaxSum":0,"tax":"NO_VAT","taxPercent":0,"taxRateCode":null,"taxSum":0},{"type":"PAYMENT","uuid":"d30a8908-01a1-44dc-b860-31baf4847911","id":"4","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T08:28:07.000+0000","timezone":10800000,"paymentType":"CASH","rrn":null,"sum":4200},{"type":"DOCUMENT_CLOSE_FPRINT","uuid":null,"id":"5","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T08:28:07.000+0000","timezone":10800000,"documentNumber":"21","receiptNumber":"15","sessionNumber":"132","total":4200},{"type":"DOCUMENT_CLOSE","uuid":null,"id":"6","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T08:28:07.000+0000","timezone":10800000,"clientName":null,"clientPhone":null,"couponNumber":null,"quantity":1,"sum":4200,"baseDocumentNumber":null,"baseDocumentUUID":null}],"closeDate":"2019-04-25T08:28:07.000+0000","openDate":"2019-04-25T08:28:07.000+0000","openUserCode":null,"openUserUuid":"20180323-8803-4036-80A7-9892717F7410","closeUserCode":null,"closeUserUuid":"20180323-8803-4036-80A7-9892717F7410","sessionUUID":"3d78637b-aaf5-4290-be81-b2642fca762c","sessionNumber":"134","number":1053,"closeResultSum":"4200.00","closeSum":"4200.00","extras":{},"version":"V1"}]
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"b34e3cf8-ec52-44ce-8bb1-a0592415676e","timestamp":1556180889028,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"fefe9ed8-8f85-4db1-a3ce-6d1a99c85cd6","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-25T08:28:07.000Z","type":"SELL","shiftId":"134","employeeId":"20180323-8803-4036-80A7-9892717F7410","paymentSource":"PAY_CASH","infoCheck":false,"egais":false,"items":[{"id":"20a43413-469b-4577-b139-a73db0605480","name":"Abaco Beige (37)","itemType":"NORMAL","measureName":"шт","quantity":1,"price":4200,"costPrice":1656,"sumPrice":4200,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":4200.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"64fc8c0e-acc2-4482-8099-31969d557f2c","timestamp":1556181084356,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"162495e9-598a-4ff7-a29d-dc551820cd99","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-25T08:31:22.000Z","type":"PAYBACK","shiftId":"134","employeeId":"20180323-8803-4036-80A7-9892717F7410","paymentSource":"OTHER","infoCheck":false,"egais":false,"items":[{"id":"20a43413-469b-4577-b139-a73db0605480","name":"Abaco Beige (37)","itemType":"NORMAL","measureName":"шт","quantity":-1,"price":4200,"costPrice":1656,"sumPrice":-4200,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":4200.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => [{"uuid":"1674fe1c-c7f0-46f5-8192-30ee2862161b","type":"SELL","deviceUuid":"20180323-220C-404F-809F-A308B066DC7F","transactions":[{"type":"DOCUMENT_OPEN","uuid":null,"id":"1","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T08:47:47.000+0000","timezone":10800000,"baseDocumentNumber":null,"baseDocumentUUID":null,"clientName":null,"clientPhone":null,"couponNumber":null},{"type":"REGISTER_POSITION","uuid":null,"id":"2","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T08:47:47.000+0000","timezone":10800000,"alcoholByVolume":0,"alcoholProductKindCode":0,"balanceQuantity":14,"barcode":null,"commodityCode":"104#106","commodityUuid":"20a43413-469b-4577-b139-a73db0605480","commodityName":"Abaco Beige (37)","commodityType":"NORMAL","costPrice":1656,"fprintSection":"0","mark":null,"measureName":"шт","tareVolume":0,"price":4200,"quantity":1,"resultPrice":4200,"resultSum":4200,"sum":4200,"positionId":null,"extraKeys":[]},{"type":"POSITION_TAX","uuid":null,"id":"3","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T08:47:47.000+0000","timezone":10800000,"barcode":null,"commodityCode":"104#106","commodityUuid":"20a43413-469b-4577-b139-a73db0605480","resultPrice":4200,"resultSum":4200,"resultTaxSum":0,"tax":"NO_VAT","taxPercent":0,"taxRateCode":null,"taxSum":0},{"type":"PAYMENT","uuid":"6c789bb8-ab66-458b-b674-17be88164e5b","id":"4","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T08:47:47.000+0000","timezone":10800000,"paymentType":"CASH","rrn":null,"sum":4200},{"type":"DOCUMENT_CLOSE_FPRINT","uuid":null,"id":"5","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T08:47:47.000+0000","timezone":10800000,"documentNumber":"23","receiptNumber":"17","sessionNumber":"132","total":4200},{"type":"DOCUMENT_CLOSE","uuid":null,"id":"6","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T08:47:47.000+0000","timezone":10800000,"clientName":null,"clientPhone":null,"couponNumber":null,"quantity":1,"sum":4200,"baseDocumentNumber":null,"baseDocumentUUID":null}],"closeDate":"2019-04-25T08:47:47.000+0000","openDate":"2019-04-25T08:47:47.000+0000","openUserCode":null,"openUserUuid":"20180323-8803-4036-80A7-9892717F7410","closeUserCode":null,"closeUserUuid":"20180323-8803-4036-80A7-9892717F7410","sessionUUID":"3d78637b-aaf5-4290-be81-b2642fca762c","sessionNumber":"134","number":1055,"closeResultSum":"4200.00","closeSum":"4200.00","extras":{},"version":"V1"}]
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"7e2cdacd-f8c4-4de0-aeba-0b6446444181","timestamp":1556182068843,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"1674fe1c-c7f0-46f5-8192-30ee2862161b","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-25T08:47:47.000Z","type":"SELL","shiftId":"134","employeeId":"20180323-8803-4036-80A7-9892717F7410","paymentSource":"PAY_CASH","infoCheck":false,"egais":false,"items":[{"id":"20a43413-469b-4577-b139-a73db0605480","name":"Abaco Beige (37)","itemType":"NORMAL","measureName":"шт","quantity":1,"price":4200,"costPrice":1656,"sumPrice":4200,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":4200.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"03318ed1-d4d8-4ef7-bf80-8ad64ea815d2","timestamp":1556182325404,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"b91ac91d-c38e-41a9-bb6d-00585f75e3fc","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-25T08:52:03.000Z","type":"PAYBACK","shiftId":"134","employeeId":"20180323-8803-4036-80A7-9892717F7410","paymentSource":"OTHER","infoCheck":false,"egais":false,"items":[{"id":"20a43413-469b-4577-b139-a73db0605480","name":"Abaco Beige (37)","itemType":"NORMAL","measureName":"шт","quantity":-1,"price":4200,"costPrice":1656,"sumPrice":-4200,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":4200.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => [{"uuid":"a7356a1e-3e56-41c8-a08d-104690d4a8b7","type":"SELL","deviceUuid":"20180323-220C-404F-809F-A308B066DC7F","transactions":[{"type":"DOCUMENT_OPEN","uuid":null,"id":"1","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T09:35:01.000+0000","timezone":10800000,"baseDocumentNumber":null,"baseDocumentUUID":null,"clientName":null,"clientPhone":null,"couponNumber":null},{"type":"REGISTER_POSITION","uuid":null,"id":"2","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T09:35:01.000+0000","timezone":10800000,"alcoholByVolume":0,"alcoholProductKindCode":0,"balanceQuantity":14,"barcode":null,"commodityCode":"104#106","commodityUuid":"20a43413-469b-4577-b139-a73db0605480","commodityName":"Abaco Beige (37)","commodityType":"NORMAL","costPrice":1656,"fprintSection":"0","mark":null,"measureName":"шт","tareVolume":0,"price":4200,"quantity":1,"resultPrice":4200,"resultSum":4200,"sum":4200,"positionId":null,"extraKeys":[]},{"type":"POSITION_TAX","uuid":null,"id":"3","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T09:35:01.000+0000","timezone":10800000,"barcode":null,"commodityCode":"104#106","commodityUuid":"20a43413-469b-4577-b139-a73db0605480","resultPrice":4200,"resultSum":4200,"resultTaxSum":0,"tax":"NO_VAT","taxPercent":0,"taxRateCode":null,"taxSum":0},{"type":"PAYMENT","uuid":"093ce664-78c0-4f9b-8e34-7d34af6f6193","id":"4","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T09:35:01.000+0000","timezone":10800000,"paymentType":"CASH","rrn":null,"sum":4200},{"type":"DOCUMENT_CLOSE_FPRINT","uuid":null,"id":"5","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T09:35:01.000+0000","timezone":10800000,"documentNumber":"25","receiptNumber":"19","sessionNumber":"132","total":4200},{"type":"DOCUMENT_CLOSE","uuid":null,"id":"6","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T09:35:01.000+0000","timezone":10800000,"clientName":null,"clientPhone":null,"couponNumber":null,"quantity":1,"sum":4200,"baseDocumentNumber":null,"baseDocumentUUID":null}],"closeDate":"2019-04-25T09:35:01.000+0000","openDate":"2019-04-25T09:35:01.000+0000","openUserCode":null,"openUserUuid":"20180323-8803-4036-80A7-9892717F7410","closeUserCode":null,"closeUserUuid":"20180323-8803-4036-80A7-9892717F7410","sessionUUID":"3d78637b-aaf5-4290-be81-b2642fca762c","sessionNumber":"134","number":1057,"closeResultSum":"4200.00","closeSum":"4200.00","extras":{},"version":"V1"}]
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"c77baf18-500c-4b13-8261-1cba194289f1","timestamp":1556184903558,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"a7356a1e-3e56-41c8-a08d-104690d4a8b7","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-25T09:35:01.000Z","type":"SELL","shiftId":"134","employeeId":"20180323-8803-4036-80A7-9892717F7410","paymentSource":"PAY_CASH","infoCheck":false,"egais":false,"items":[{"id":"20a43413-469b-4577-b139-a73db0605480","name":"Abaco Beige (37)","itemType":"NORMAL","measureName":"шт","quantity":1,"price":4200,"costPrice":1656,"sumPrice":4200,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":4200.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"744a3d79-d1fc-4ccd-9562-931b7c940264","timestamp":1556185343151,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"943f2df9-5fbc-4455-bc1a-8733cb639589","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-25T09:42:21.000Z","type":"PAYBACK","shiftId":"134","employeeId":"20180323-8803-4036-80A7-9892717F7410","paymentSource":"OTHER","infoCheck":false,"egais":false,"items":[{"id":"20a43413-469b-4577-b139-a73db0605480","name":"Abaco Beige (37)","itemType":"NORMAL","measureName":"шт","quantity":-1,"price":4200,"costPrice":1656,"sumPrice":-4200,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":4200.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => [{"uuid":"63ea960c-f22e-40b9-8724-34b3b41fa3ca","type":"SELL","deviceUuid":"20180323-220C-404F-809F-A308B066DC7F","transactions":[{"type":"DOCUMENT_OPEN","uuid":null,"id":"1","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T09:48:59.000+0000","timezone":10800000,"baseDocumentNumber":null,"baseDocumentUUID":null,"clientName":null,"clientPhone":null,"couponNumber":null},{"type":"REGISTER_POSITION","uuid":null,"id":"2","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T09:48:59.000+0000","timezone":10800000,"alcoholByVolume":0,"alcoholProductKindCode":0,"balanceQuantity":14,"barcode":null,"commodityCode":"104#106","commodityUuid":"20a43413-469b-4577-b139-a73db0605480","commodityName":"Abaco Beige (37)","commodityType":"NORMAL","costPrice":1656,"fprintSection":"0","mark":null,"measureName":"шт","tareVolume":0,"price":4200,"quantity":1,"resultPrice":4200,"resultSum":4200,"sum":4200,"positionId":null,"extraKeys":[]},{"type":"POSITION_TAX","uuid":null,"id":"3","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T09:48:59.000+0000","timezone":10800000,"barcode":null,"commodityCode":"104#106","commodityUuid":"20a43413-469b-4577-b139-a73db0605480","resultPrice":4200,"resultSum":4200,"resultTaxSum":0,"tax":"NO_VAT","taxPercent":0,"taxRateCode":null,"taxSum":0},{"type":"PAYMENT","uuid":"97cdbdf7-7c5b-4d18-abd4-1d52f92e2a7e","id":"4","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T09:48:59.000+0000","timezone":10800000,"paymentType":"CASH","rrn":null,"sum":4200},{"type":"DOCUMENT_CLOSE_FPRINT","uuid":null,"id":"5","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T09:48:59.000+0000","timezone":10800000,"documentNumber":"27","receiptNumber":"21","sessionNumber":"132","total":4200},{"type":"DOCUMENT_CLOSE","uuid":null,"id":"6","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T09:48:59.000+0000","timezone":10800000,"clientName":null,"clientPhone":null,"couponNumber":null,"quantity":1,"sum":4200,"baseDocumentNumber":null,"baseDocumentUUID":null}],"closeDate":"2019-04-25T09:48:59.000+0000","openDate":"2019-04-25T09:48:59.000+0000","openUserCode":null,"openUserUuid":"20180323-8803-4036-80A7-9892717F7410","closeUserCode":null,"closeUserUuid":"20180323-8803-4036-80A7-9892717F7410","sessionUUID":"3d78637b-aaf5-4290-be81-b2642fca762c","sessionNumber":"134","number":1059,"closeResultSum":"4200.00","closeSum":"4200.00","extras":{},"version":"V1"}]
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"26003a4b-f4ea-40be-bfc2-8b777f1a81c3","timestamp":1556185741641,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"63ea960c-f22e-40b9-8724-34b3b41fa3ca","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-25T09:48:59.000Z","type":"SELL","shiftId":"134","employeeId":"20180323-8803-4036-80A7-9892717F7410","paymentSource":"PAY_CASH","infoCheck":false,"egais":false,"items":[{"id":"20a43413-469b-4577-b139-a73db0605480","name":"Abaco Beige (37)","itemType":"NORMAL","measureName":"шт","quantity":1,"price":4200,"costPrice":1656,"sumPrice":4200,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":4200.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"fcc47074-3c83-43e7-bbb1-3f8df7cb100e","timestamp":1556186486652,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"888ae075-d85b-4fd8-9a3a-415e6a583083","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-25T10:01:24.000Z","type":"PAYBACK","shiftId":"134","employeeId":"20180323-8803-4036-80A7-9892717F7410","paymentSource":"OTHER","infoCheck":false,"egais":false,"items":[{"id":"20a43413-469b-4577-b139-a73db0605480","name":"Abaco Beige (37)","itemType":"NORMAL","measureName":"шт","quantity":-1,"price":4200,"costPrice":1656,"sumPrice":-4200,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":4200.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"6815ac57-c1b3-40a7-b50b-f62a2f8eaadd","timestamp":1556186710643,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"504eff05-b343-4d0d-ac39-667257a61c99","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-25T10:05:08.000Z","type":"SELL","shiftId":"134","employeeId":"20180323-8803-4036-80A7-9892717F7410","paymentSource":"PAY_CASH","infoCheck":false,"egais":false,"items":[{"id":"20a43413-469b-4577-b139-a73db0605480","name":"Abaco Beige (37)","itemType":"NORMAL","measureName":"шт","quantity":1,"price":4200,"costPrice":1656,"sumPrice":4200,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":4200.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => [{"uuid":"504eff05-b343-4d0d-ac39-667257a61c99","type":"SELL","deviceUuid":"20180323-220C-404F-809F-A308B066DC7F","transactions":[{"type":"DOCUMENT_OPEN","uuid":null,"id":"1","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T10:05:08.000+0000","timezone":10800000,"baseDocumentNumber":null,"baseDocumentUUID":null,"clientName":null,"clientPhone":null,"couponNumber":null},{"type":"REGISTER_POSITION","uuid":null,"id":"2","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T10:05:08.000+0000","timezone":10800000,"alcoholByVolume":0,"alcoholProductKindCode":0,"balanceQuantity":14,"barcode":null,"commodityCode":"104#106","commodityUuid":"20a43413-469b-4577-b139-a73db0605480","commodityName":"Abaco Beige (37)","commodityType":"NORMAL","costPrice":1656,"fprintSection":"0","mark":null,"measureName":"шт","tareVolume":0,"price":4200,"quantity":1,"resultPrice":4200,"resultSum":4200,"sum":4200,"positionId":null,"extraKeys":[]},{"type":"POSITION_TAX","uuid":null,"id":"3","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T10:05:08.000+0000","timezone":10800000,"barcode":null,"commodityCode":"104#106","commodityUuid":"20a43413-469b-4577-b139-a73db0605480","resultPrice":4200,"resultSum":4200,"resultTaxSum":0,"tax":"NO_VAT","taxPercent":0,"taxRateCode":null,"taxSum":0},{"type":"PAYMENT","uuid":"8142b0fe-06ab-4fdc-a7d9-bd08cc8fccfd","id":"4","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T10:05:08.000+0000","timezone":10800000,"paymentType":"CASH","rrn":null,"sum":4200},{"type":"DOCUMENT_CLOSE_FPRINT","uuid":null,"id":"5","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T10:05:08.000+0000","timezone":10800000,"documentNumber":"29","receiptNumber":"23","sessionNumber":"132","total":4200},{"type":"DOCUMENT_CLOSE","uuid":null,"id":"6","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T10:05:08.000+0000","timezone":10800000,"clientName":null,"clientPhone":null,"couponNumber":null,"quantity":1,"sum":4200,"baseDocumentNumber":null,"baseDocumentUUID":null}],"closeDate":"2019-04-25T10:05:08.000+0000","openDate":"2019-04-25T10:05:08.000+0000","openUserCode":null,"openUserUuid":"20180323-8803-4036-80A7-9892717F7410","closeUserCode":null,"closeUserUuid":"20180323-8803-4036-80A7-9892717F7410","sessionUUID":"3d78637b-aaf5-4290-be81-b2642fca762c","sessionNumber":"134","number":1061,"closeResultSum":"4200.00","closeSum":"4200.00","extras":{},"version":"V1"}]
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"059d826a-441f-4386-b8fd-2dc85fdc5fc3","timestamp":1556187319065,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"e654c1e9-fa51-4748-bb1d-3f17ce2057a4","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-25T10:15:17.000Z","type":"PAYBACK","shiftId":"134","employeeId":"20180323-8803-4036-80A7-9892717F7410","paymentSource":"OTHER","infoCheck":false,"egais":false,"items":[{"id":"20a43413-469b-4577-b139-a73db0605480","name":"Abaco Beige (37)","itemType":"NORMAL","measureName":"шт","quantity":-1,"price":4200,"costPrice":1656,"sumPrice":-4200,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":4200.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => [{"uuid":"a153de60-eba7-4506-9c00-cdda43e02244","type":"SELL","deviceUuid":"20180323-220C-404F-809F-A308B066DC7F","transactions":[{"type":"DOCUMENT_OPEN","uuid":null,"id":"1","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T14:50:57.000+0000","timezone":10800000,"baseDocumentNumber":null,"baseDocumentUUID":null,"clientName":null,"clientPhone":null,"couponNumber":null},{"type":"REGISTER_POSITION","uuid":null,"id":"2","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T14:50:57.000+0000","timezone":10800000,"alcoholByVolume":0,"alcoholProductKindCode":0,"balanceQuantity":1,"barcode":null,"commodityCode":"135#142","commodityUuid":"919d1ca5-3b3b-4d63-8fe4-634b884c2177","commodityName":"Palmeral White (28)","commodityType":"NORMAL","costPrice":1656,"fprintSection":"0","mark":null,"measureName":"шт","tareVolume":0,"price":4200,"quantity":1,"resultPrice":4200,"resultSum":4200,"sum":4200,"positionId":null,"extraKeys":[]},{"type":"POSITION_TAX","uuid":null,"id":"3","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T14:50:57.000+0000","timezone":10800000,"barcode":null,"commodityCode":"135#142","commodityUuid":"919d1ca5-3b3b-4d63-8fe4-634b884c2177","resultPrice":4200,"resultSum":4200,"resultTaxSum":0,"tax":"NO_VAT","taxPercent":0,"taxRateCode":null,"taxSum":0},{"type":"REGISTER_POSITION","uuid":null,"id":"4","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T14:50:57.000+0000","timezone":10800000,"alcoholByVolume":0,"alcoholProductKindCode":0,"balanceQuantity":14,"barcode":null,"commodityCode":"104#106","commodityUuid":"20a43413-469b-4577-b139-a73db0605480","commodityName":"Abaco Beige (37)","commodityType":"NORMAL","costPrice":1656,"fprintSection":"0","mark":null,"measureName":"шт","tareVolume":0,"price":4200,"quantity":1,"resultPrice":4200,"resultSum":4200,"sum":4200,"positionId":null,"extraKeys":[]},{"type":"POSITION_TAX","uuid":null,"id":"5","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T14:50:57.000+0000","timezone":10800000,"barcode":null,"commodityCode":"104#106","commodityUuid":"20a43413-469b-4577-b139-a73db0605480","resultPrice":4200,"resultSum":4200,"resultTaxSum":0,"tax":"NO_VAT","taxPercent":0,"taxRateCode":null,"taxSum":0},{"type":"PAYMENT","uuid":"2c8b0d2a-2ccd-42b9-ab14-e6c4fba1a2a0","id":"6","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T14:50:57.000+0000","timezone":10800000,"paymentType":"CASH","rrn":null,"sum":8400},{"type":"DOCUMENT_CLOSE_FPRINT","uuid":null,"id":"7","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T14:50:57.000+0000","timezone":10800000,"documentNumber":"32","receiptNumber":"25","sessionNumber":"132","total":8400},{"type":"DOCUMENT_CLOSE","uuid":null,"id":"8","userCode":null,"userUuid":"20180323-8803-4036-80A7-9892717F7410","creationDate":"2019-04-25T14:50:57.000+0000","timezone":10800000,"clientName":null,"clientPhone":null,"couponNumber":null,"quantity":2,"sum":8400,"baseDocumentNumber":null,"baseDocumentUUID":null}],"closeDate":"2019-04-25T14:50:57.000+0000","openDate":"2019-04-25T14:50:57.000+0000","openUserCode":null,"openUserUuid":"20180323-8803-4036-80A7-9892717F7410","closeUserCode":null,"closeUserUuid":"20180323-8803-4036-80A7-9892717F7410","sessionUUID":"3d78637b-aaf5-4290-be81-b2642fca762c","sessionNumber":"134","number":1063,"closeResultSum":"8400.00","closeSum":"8400.00","extras":{},"version":"V1"}]
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"fe89e403-a334-4fd8-b668-361b8ab348aa","timestamp":1556203859268,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"a153de60-eba7-4506-9c00-cdda43e02244","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-25T14:50:57.000Z","type":"SELL","shiftId":"134","employeeId":"20180323-8803-4036-80A7-9892717F7410","paymentSource":"PAY_CASH","infoCheck":false,"egais":false,"items":[{"id":"919d1ca5-3b3b-4d63-8fe4-634b884c2177","name":"Palmeral White (28)","itemType":"NORMAL","measureName":"шт","quantity":1,"price":4200,"costPrice":1656,"sumPrice":4200,"tax":0,"taxPercent":0.0,"discount":0},{"id":"20a43413-469b-4577-b139-a73db0605480","name":"Abaco Beige (37)","itemType":"NORMAL","measureName":"шт","quantity":1,"price":4200,"costPrice":1656,"sumPrice":4200,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":8400.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => {"id":"9e3147dc-928d-4b79-bb90-983bc27d2684","timestamp":1556203993755,"type":"ReceiptCreated","version":2,"userId":"01-000000000651467","data":{"id":"c46be25c-36d1-41c4-85d6-b92b43938906","deviceId":"20180323-220C-404F-809F-A308B066DC7F","storeId":"20180323-F567-406C-80EB-C507AF541F57","dateTime":"2019-04-25T14:53:12.000Z","type":"PAYBACK","shiftId":"134","employeeId":"20180323-8803-4036-80A7-9892717F7410","paymentSource":"OTHER","infoCheck":false,"egais":false,"items":[{"id":"919d1ca5-3b3b-4d63-8fe4-634b884c2177","name":"Palmeral White (28)","itemType":"NORMAL","measureName":"шт","quantity":-1,"price":4200,"costPrice":1656,"sumPrice":-4200,"tax":0,"taxPercent":0.0,"discount":0},{"id":"20a43413-469b-4577-b139-a73db0605480","name":"Abaco Beige (37)","itemType":"NORMAL","measureName":"шт","quantity":-1,"price":4200,"costPrice":1656,"sumPrice":-4200,"tax":0,"taxPercent":0.0,"discount":0}],"totalTax":0,"totalDiscount":0.00,"totalAmount":8400.0,"extras":{}}}
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
+Array
+(
+    [0] => Array
+        (
+        )
+
+    [1] => 
+)
