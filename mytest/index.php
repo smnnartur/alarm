@@ -2,28 +2,26 @@
 
 ini_set ( 'display_errors' , 1 );
 
-$urlapi = 'https://online.moysklad.ru/api/remap/1.1/entity/customerorder';
-$username = 'admin@smnnartur1';
-$password = '1e29db9dbbe0';
+$uuid = function (){
+    return (string) sprintf ( '%04x%04x-%04x-%04x-%04x-%04x%04x%04x' ,
+        // 32 bits for "time_low"
+        mt_rand ( 0 , 0xffff ) , mt_rand ( 0 , 0xffff ) ,
 
-function pre ( $var )
-{
-    echo '<pre>';
-    var_dump ( $var );
-    echo '</pre>';
-}
+        // 16 bits for "time_mid"
+        mt_rand ( 0 , 0xffff ) ,
 
+        // 16 bits for "time_hi_and_version",
+        // four most significant bits holds version number 4
+        mt_rand ( 0 , 0x0fff ) | 0x4000 ,
 
-$data_json=file_get_contents ('target.json');
-$ch = curl_init ();
+        // 16 bits, 8 bits for "clk_seq_hi_res",
+        // 8 bits for "clk_seq_low",
+        // two most significant bits holds zero and one for variant DCE1.1
+        mt_rand ( 0 , 0x3fff ) | 0x8000 ,
 
-curl_setopt ( $ch , CURLOPT_URL , $urlapi );
-curl_setopt ( $ch , CURLOPT_RETURNTRANSFER , true );
-curl_setopt ( $ch , CURLOPT_USERPWD , "$username:$password" );
-curl_setopt ( $ch , CURLOPT_HTTPAUTH , CURLAUTH_BASIC );
-curl_setopt ( $ch , CURLOPT_HTTPHEADER , array ( 'Content-Type: application/json' ) );
-curl_setopt ( $ch , CURLOPT_POST, 1);
-curl_setopt ( $ch , CURLOPT_POSTFIELDS , $data_json );
-
-$response = curl_exec ( $ch );
-curl_close ( $ch );
+        // 48 bits for "node"
+        mt_rand ( 0 , 0xffff ) , mt_rand ( 0 , 0xffff ) , mt_rand ( 0 , 0xffff )
+    );
+};
+$u = $uuid;
+echo $u;

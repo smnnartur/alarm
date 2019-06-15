@@ -1,9 +1,11 @@
 <?php
+ini_set ('display_errors',1);
+
 require_once 'WildDog.php';
 require_once 'WildDogAdapter.php';
 require_once 'Hunter.php';
 require_once 'AsianLion.php';
-ini_set ('display_errors',1);
+
 
 $wildDog = new WildDog();
 $wildDogAdapter= new WildDogAdapter($wildDog);
