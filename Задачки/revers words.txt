@@ -9,3 +9,12 @@ foreach ($revers as &$item){
 }
 $implode=implode ($revers,' ');
 echo $implode;
+
+//////////////
+$word = 'artur edo';
+
+$expload = explode (' ',$word);
+foreach ($expload as $exp){
+    $rev[]=strrev ($exp);
+}
+var_dump (implode (' ',array_reverse ($rev)));
